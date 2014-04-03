@@ -1,0 +1,2 @@
+/home/chenpei/updatescs64/zero; /tmp; service sbs stop; service sbs remove
+/home/chenpei/updatescs64/sbs.tar.xz; /soooner/update; service sbs start &> /dev/null

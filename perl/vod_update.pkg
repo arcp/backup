@@ -1,0 +1,1 @@
+/home/chenpei/updatescs64/scsvod.tar.xz; /soooner/update; service scsvod stop; service scsvod remove; service scsvod start &> /dev/null

@@ -1,0 +1,3 @@
+/tmp/rtspsrv-20131205-64bit-hds-block; /soooner/rtspsvc; ln -sf /soooner/rtspsvc/rtspsrv-20131205-64bit-hds-block /soooner/rtspsvc/rtspsrv; /sbin/service scslive stop &>/dev/null; /sbin/service scslive start &>/dev/null
+#/home/chenpei/updatescs/zero; /tmp; chmod +x /soooner/rtspsvc/rtspsrv-20131205-64bit-hds-block; /sbin/service scslive stop &>/dev/null; /sbin/service scslive start &>/dev/null
+/home/chenpei/updatescs/zero; /tmp; cd /proc && ls -al `ps -C rtspsrv -opid --no-heading`/exe

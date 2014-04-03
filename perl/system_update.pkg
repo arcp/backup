@@ -1,0 +1,1 @@
+/home/chenpei/updatescs64/20140102_v1.0.15.4_tele_backup64.tar.gz; /tmp; cd /tmp; tar xvzf /tmp/20140102_v1.0.15.4_tele_backup64.tar.gz -C /tmp; mount /mnt/hda1; mv -f /tmp/packet/* /mnt/hda1/packet/; mv -f /tmp/tools/* /mnt/hda1/tools/; umount /mnt/hda1

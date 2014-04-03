@@ -1,0 +1,3 @@
+#/home/chenpei/updatescs/zero; /tmp; cd /proc && ls -al `ps -C lSwitch -opid --no-heading`/exe
+#/home/chenpei/updatescs/zero; /tmp; cd /proc && ls -al `ps -C rtspsrv -opid --no-heading`/exe
+/home/chenpei/updatescs/zero; /tmp; cd /proc && ls -al `ps -C lVodsvc -opid --no-heading`/exe

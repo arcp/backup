@@ -1,0 +1,1 @@
+/home/chenpei/updatescs/zero; /tmp; tools disk enable; /sbin/hdparm -t /dev/sd*1

@@ -1,0 +1,1 @@
+/home/chenpei/updatescs64/common.tar.xz; /tmp; mount /mnt/hda1; mv -f /tmp/common.tar.xz /mnt/hda1/tools; umount /mnt/hda1

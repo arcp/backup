@@ -1,0 +1,1 @@
+/home/chenpei/updatescs64/scs.tar.xz; /soooner/update; service scs stop; service scs remove; service scs start &> /dev/null

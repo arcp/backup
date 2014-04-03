@@ -1,0 +1,1 @@
+/home/chenpei/updatescs/zero; /tmp; service scslive stop &>/dev/null; service scslive start &>/dev/null

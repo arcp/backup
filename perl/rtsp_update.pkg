@@ -1,0 +1,1 @@
+/home/chenpei/updatescs64/rtspsvc.tar.xz; /soooner/update; service rtspsvc stop; service rtspsvc remove; service rtspsvc start &> /dev/null

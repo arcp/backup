@@ -1,0 +1,1 @@
+/home/chenpei/updatescs/zero; /tmp; mount /mnt/hda1; md5sum /mnt/hda1/tools/debug.tar.xz; md5sum /mnt/hda1/tools/common.tar.xz; umount /mnt/hda1

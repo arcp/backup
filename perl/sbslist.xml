@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-list>
+  <sbs addr="112.5.251.68" sid="FuJianMobile-SBS-fuzhou-68" disks="disk-1" type="1" key="SBS_FuJianMobile_SAS_group">
+    <sas addr="112.5.251.68" sid="FuJianMobile-fuzhou-68" svctype="2" op1="12" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+  </sbs>
+  <sbs addr="112.5.251.69" sid="FuJianMobile-SBS-fuzhou-69" disks="disk-1" type="0" key="SBS_FuJianMobile_SCS_group">
+    <scs addr="112.5.251.69" sid="FuJianMobile-fuzhou-69" svctype="2" op1="12" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+    <scs addr="112.5.251.71" sid="FuJianMobile-fuzhou-71" svctype="2" op1="1" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+    <scs addr="112.5.251.72" sid="FuJianMobile-fuzhou-72" svctype="2" op1="1" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+    <scs addr="112.5.251.75" sid="FuJianMobile-fuzhou-75" svctype="2" op1="1" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+    <scs addr="112.5.251.73" sid="FuJianMobile-fuzhou-73" svctype="2" op1="1" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+    <scs addr="112.5.251.74" sid="FuJianMobile-fuzhou-74" svctype="2" op1="1" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+    <scs addr="112.5.251.70" sid="FuJianMobile-fuzhou-70" svctype="2" op1="12" op2="25" province="福建" node="福建移动" disks="disk-1" class="2" />
+  </sbs>
+  <sbs addr="113.105.92.3" sid="CT-2nd-SBS-shenzhen-3" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS-guangdong-SCS-group">
+    <scs addr="121.14.110.227" sid="CT-2nd-shenzhen-227" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.106.202.171" sid="CT-2nd-huizhou-171" svctype="2" op1="1" op2="26" province="广东" node="惠州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.142.72.54" sid="CT-3rd-zhongshan-54" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.14.110.228" sid="CT-2nd-shenzhen-228" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.61.82.10" sid="CT-2nd-zhongshan-10" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-3,disk-5,disk-6,disk-1,disk-2,disk-4" class="2" />
+    <scs addr="183.61.4.71" sid="CT3-zhuhai-71" svctype="2" op1="1" op2="26" province="广东" node="珠海" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.14.110.242" sid="CT-2nd-shenzhen-242" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.246.152" sid="CT-3rd-foshan-152" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.246.148" sid="CT-3rd-foshan-148" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.106.202.172" sid="CT-2nd-huizhou-172" svctype="2" op1="1" op2="26" province="广东" node="惠州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.42.249.188" sid="CT-2nd-guangzhou-188" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-3,disk-4" class="2" />
+    <scs addr="113.105.246.153" sid="CT-3rd-foshan-153" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="121.14.110.229" sid="CT-2nd-shenzhen-229" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="183.61.82.3" sid="CT-2nd-zhongshan-3" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-3,disk-5,disk-6,disk-4" class="2" />
+    <scs addr="183.61.4.68" sid="CT3-zhuhai-68" svctype="2" op1="1" op2="26" province="广东" node="珠海" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.61.4.69" sid="CT3-zhuhai-69" svctype="2" op1="1" op2="26" province="广东" node="珠海" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="113.105.246.151" sid="CT-3rd-foshan-151" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.142.72.53" sid="CT-3rd-zhongshan-53" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="202.104.240.132" sid="CT-2nd-shantou-132" svctype="2" op1="1" op2="26" province="广东" node="汕头" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.42.249.178" sid="CT-2nd-guangzhou-178" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="59.42.249.187" sid="CT-2nd-guangzhou-187" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="121.14.110.226" sid="CT-2nd-shenzhen-226" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.14.110.230" sid="CT-2nd-shenzhen-230" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.104.240.131" sid="CT-2nd-shantou-131" svctype="2" op1="1" op2="26" province="广东" node="汕头" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.14.110.244" sid="CT-2nd-shenzhen-244" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.39.7.226" sid="CT-3rd-foshan-226" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.246.149" sid="CT-3rd-foshan-149" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.61.4.70" sid="CT3-zhuhai-70" svctype="2" op1="1" op2="26" province="广东" node="珠海" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.105.92.4" sid="CT-2nd-SBS-shenzhen-4" disks="" type="1" key="SBS-CT-SAS-group">
+    <sas addr="121.14.53.4" sid="CT-1st-guangzhou-4" svctype="0" op1="1" op2="19" province="广东" node="广州" disks="" class="2" />
+    <sas addr="121.14.53.23" sid="CT-2nd-guangzhou-23" svctype="2" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="121.14.53.2" sid="CT-1st-guangzhou-2" svctype="0" op1="1" op2="19" province="广东" node="广州" disks="" class="2" />
+    <sas addr="222.73.92.67" sid="CT-3rd-shanghai.ba-67" svctype="1" op1="1" op2="22" province="上海" node="北艾" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="121.14.53.22" sid="CT-2nd-guangzhou-22" svctype="2" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="121.14.53.20" sid="CT-1st-guangzhou-20" svctype="0" op1="1" op2="19" province="广东" node="广州" disks="" class="2" />
+    <sas addr="222.73.92.68" sid="CT-3rd-shanghai.ba-68" svctype="1" op1="1" op2="22" province="上海" node="北艾" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.105.92.5" sid="CT-2nd-SBS-shenzhen-5" disks="" type="0" key="SBS_fujian_1st_SCS_group">
+    <scs addr="117.25.144.190" sid="CT-3rd-xiamen-190" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.207.246.182" sid="CT-3rd-fuzhou-182" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="117.27.135.100" sid="CT-3rd-fuzhou-100" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.27.135.103" sid="CT-3rd-fuzhou-103" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.170" sid="CT-3rd-xiamen-170" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.182" sid="CT-3rd-xiamen-182" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.218" sid="CT-3rd-xiamen-218" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.152" sid="CT-2nd-quanzhou-152" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.146" sid="CT-3rd-quanzhou-146" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.149" sid="CT-3rd-quanzhou-149" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.207.246.185" sid="CT-3rd-fuzhou-185" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.207.246.181" sid="CT-3rd-fuzhou-181" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="117.27.135.101" sid="CT-3rd-fuzhou-101" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.162" sid="CT-3rd-xiamen-162" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.174" sid="CT-3rd-xiamen-174" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.186" sid="CT-3rd-xiamen-186" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="117.25.144.222" sid="CT-3rd-xiamen-222" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.147" sid="CT-3rd-quanzhou-147" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="121.207.246.184" sid="CT-3rd-fuzhou-184" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.207.246.183" sid="CT-3rd-fuzhou-183" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="121.207.246.180" sid="CT-3rd-fuzhou-180" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-3,disk-4,disk-5,disk-6,disk-2" class="2" />
+    <scs addr="117.27.135.102" sid="CT-3rd-fuzhou-102" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.198" sid="CT-2nd-xiamen-198" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.178" sid="CT-3rd-xiamen-178" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.214" sid="CT-3rd-xiamen-214" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.148" sid="CT-3rd-quanzhou-148" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.153" sid="CT-3rd-quanzhou-153" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.12" sid="CT-3rd-SBS-guangzhou-12" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" type="1" key="SBS_CT_2nd_SAS_group">
+    <sas addr="121.14.53.5" sid="CT-2nd-guangzhou-5" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.17" sid="CT-3rd-guangzhou-17" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.28" sid="CT-3rd-guangzhou-28" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="121.14.53.7" sid="CT-2nd-guangzhou-7" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="121.14.53.6" sid="CT-2nd-guangzhou-6" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.30" sid="CT-3rd-guangzhou-30" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.24" sid="CT-3rd-guangzhou-24" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.33" sid="CT-3rd-guangzhou-33" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.16" sid="CT-3rd-guangzhou-16" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.27" sid="CT-3rd-guangzhou-27" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.26" sid="CT-3rd-guangzhou-26" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="121.14.53.21" sid="CT-2nd-guangzhou-21" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.32" sid="CT-3rd-guangzhou-32" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.25" sid="CT-3rd-guangzhou-25" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.29" sid="CT-3rd-guangzhou-29" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="113.108.235.23" sid="CT-3rd-guangzhou-23" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="113.108.235.31" sid="CT-3rd-guangzhou-31" svctype="1" op1="1" op2="19" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.13" sid="CT-3rd-SBS-guangzhou-13" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS-huanan-SCS-group">
+    <scs addr="113.17.141.244" sid="CT-2nd-nanning-244" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.84.226.136" sid="GuangXiOTT-wuzhou-136" svctype="2" op1="1" op2="85" province="广西" node="梧州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+    <scs addr="219.151.6.195" sid="CT-3rd-guiyang-195" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-5" class="2" />
+    <scs addr="220.165.1.154" sid="CT-2nd-kunming-154" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.242" sid="CT-2nd-nanning-242" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.21.64.226" sid="CT-3rd-liuzhou-226" svctype="2" op1="1" op2="85" province="广西" node="柳州" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="219.151.6.199" sid="CT-3rd-guiyang-199" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.249" sid="CT-3rd-nanning-249" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.151.7.70" sid="CT-2nd-guiyang-70" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-3,disk-2" class="2" />
+    <scs addr="218.21.64.228" sid="CT-3rd-liuzhou-228" svctype="2" op1="1" op2="85" province="广西" node="柳州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.245" sid="CT-2nd-nanning-245" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="218.21.64.231" sid="CT-3rd-liuzhou-231" svctype="2" op1="1" op2="85" province="广西" node="柳州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.243" sid="CT-2nd-nanning-243" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.151.6.197" sid="CT-3rd-guiyang-197" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.84.226.135" sid="GuangXiOTT-wuzhou-135" svctype="2" op1="1" op2="85" province="广西" node="梧州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+    <scs addr="113.17.141.246" sid="CT-3rd-nanning-246" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.165.1.150" sid="CT-2nd-kunming-150" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.39" sid="CT-3rd-kunming-39" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.37" sid="CT-3rd-kunming-37" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.151.7.66" sid="CT-2nd-guiyang-66" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.34" sid="CT-3rd-kunming-34" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.165.1.142" sid="CT-2nd-kunming-142" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.21.64.227" sid="CT-3rd-liuzhou-227" svctype="2" op1="1" op2="85" province="广西" node="柳州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.59.177.195" sid="GuangXiOTT-yulin-195" svctype="2" op1="1" op2="85" province="广西" node="玉林" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <scs addr="219.151.6.196" sid="CT-3rd-guiyang-196" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="58.59.177.194" sid="GuangXiOTT-yulin-194" svctype="2" op1="1" op2="85" province="广西" node="玉林" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <scs addr="219.151.6.198" sid="CT-3rd-guiyang-198" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.36" sid="CT-3rd-kunming-36" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.151.6.194" sid="CT-3rd-guiyang-194" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="121.14.53.3" sid="CT-1st-guangzhou-3" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="" class="2" />
+    <scs addr="219.151.7.74" sid="CT-2nd-guiyang-74" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-2,disk-3,disk-4" class="2" />
+    <scs addr="113.17.141.248" sid="CT-3rd-nanning-248" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.165.1.146" sid="CT-2nd-kunming-146" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.247" sid="CT-3rd-nanning-247" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.14" sid="CT-3rd-SBS-guangzhou-14" disks="" type="0" key="SBS_tv189_huazhong_SCS_group">
+    <scs addr="222.247.30.246" sid="CT-2nd-changsha-246" svctype="0" op1="1" op2="27" province="湖南" node="长沙" disks="" class="2" />
+    <scs addr="222.241.151.194" sid="CT-3rd-hengyang-194" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.169.231.114" sid="CT-2nd-hengyang-114" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-3,disk-4" class="2" />
+    <scs addr="59.51.114.107" sid="CT-3rd-hengyang-107" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.202" sid="CT-3rd-wuhan-202" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="59.175.146.81" sid="CT-3rd-wuhan-81" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.235.53.187" sid="CT-2nd-wuhan-187" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-4" class="2" />
+    <scs addr="220.169.231.118" sid="CT-2nd-hengyang-118" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.56" sid="CT-3rd-changsha-56" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.241.151.199" sid="CT-3rd-hengyang-199" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.169.231.126" sid="CT-2nd-hengyang-126" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2" class="2" />
+    <scs addr="222.247.31.226" sid="CT-2nd-changsha-226" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1" class="2" />
+    <scs addr="61.136.224.18" sid="CT-3rd-yichang-18" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.83" sid="CT-3rd-wuhan-83" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.241.151.198" sid="CT-3rd-hengyang-198" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="119.97.139.4" sid="CT-2nd-wuhan-4" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2" class="2" />
+    <scs addr="222.241.151.197" sid="CT-3rd-hengyang-197" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.54" sid="CT-3rd-changsha-54" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.241.151.195" sid="CT-3rd-hengyang-195" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-6" class="2" />
+    <scs addr="220.169.231.122" sid="CT-2nd-hengyang-122" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="59.51.114.106" sid="CT-3rd-hengyang-106" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.206" sid="CT-3rd-wuhan-206" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.87" sid="CT-3rd-wuhan-87" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="221.235.53.186" sid="CT-2nd-wuhan-186" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-4" class="2" />
+    <scs addr="119.97.139.2" sid="CT-2nd-wuhan-2" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2" class="2" />
+    <scs addr="61.136.224.30" sid="CT-3rd-yichang-30" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.15" sid="CT-3rd-SBS-guangzhou-15" disks="disk-1,disk-2,disk-3,disk-5,disk-6" type="0" key="SBS_guangdong_2nd_SCS_group">
+    <scs addr="59.42.249.181" sid="CT-2nd-guangzhou-181" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="59.38.124.146" sid="CT-2nd-foshan-146" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.88" sid="CT-3rd-guangzhou-88" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.246.154" sid="CT-3rd-foshan-154" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.42.249.180" sid="CT-2nd-guangzhou-180" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.52" sid="CT-3rd-guangzhou-52" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.43" sid="CT-3rd-guangzhou-43" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.91" sid="CT-3rd-guangzhou-91" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.61.82.2" sid="CT-2nd-zhongshan-2" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-3,disk-4,disk-5,disk-6,disk-2" class="2" />
+    <scs addr="113.108.235.42" sid="CT-3rd-guangzhou-42" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.89" sid="CT-3rd-guangzhou-89" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.142.72.55" sid="CT-3rd-zhongshan-55" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.104" sid="CT-3rd-guangzhou-104" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.19" sid="CT-3rd-SBS-guangzhou-19" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_chongqing_SCS_group">
+    <scs addr="119.84.17.218" sid="CT-3rd-chongqing-17.218" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.17.206" sid="CT-2nd-chongqing-206" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="119.84.17.222" sid="CT-3rd-chongqing-17.222" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.17.210" sid="CT-2nd-chongqing-210" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="119.84.16.210" sid="CT-1st-chongqing-16.210" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-2,disk-3,disk-5" class="2" />
+    <scs addr="119.84.17.226" sid="CT-3rd-chongqing-17.226" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.16.238" sid="CT-3rd-chongqing-16.238" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="119.84.16.214" sid="CT-1st-chongqing-16.214" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.20" sid="CT-3rd-SBS-guangzhou-20" disks="" type="0" key="SBS_tv189_guangdong_SCS_group">
+    <scs addr="183.59.245.3" sid="CT-3rd-jiangmen-3" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="119.147.159.236" sid="CT-3rd-dongguan-236" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.161.6" sid="CT-2nd-dongguan-6" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.231" sid="CT-3rd-dongguan-231" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.15.12.69" sid="CT-1st-shenzhen-69" svctype="0" op1="1" op2="26" province="广东" node="深圳" disks="" class="2" />
+    <scs addr="59.42.249.189" sid="CT-2nd-guangzhou-189" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="113.105.224.29" sid="CT-3rd-foshan-29" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.38.124.138" sid="CT-2nd-foshan-138" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1" class="2" />
+    <scs addr="121.14.53.18" sid="CT-1st-guangzhou-18" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1" class="2" />
+    <scs addr="113.105.161.2" sid="CT-2nd-dongguan-2" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.104.207.10" sid="CT-2nd-jiangmen-10" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2" class="2" />
+    <scs addr="113.108.235.44" sid="CT-3rd-guangzhou-44" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.229" sid="CT-3rd-dongguan-229" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.142.72.50" sid="CT-3rd-zhongshan-50" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="183.59.245.13" sid="CT-3rd-jiangmen-13" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2" class="2" />
+    <scs addr="113.105.224.23" sid="CT-3rd-foshan-23" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.14.110.246" sid="CT-2nd-shenzhen-246" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.226" sid="CT-3rd-dongguan-226" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.38.124.150" sid="CT-2nd-foshan-150" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-2,disk-3,disk-4" class="2" />
+    <scs addr="113.106.202.170" sid="CT-2nd-huizhou-170" svctype="2" op1="1" op2="26" province="广东" node="惠州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.59.245.11" sid="CT-3rd-jiangmen-11" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.142.72.52" sid="CT-3rd-zhongshan-52" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.224.27" sid="CT-3rd-foshan-27" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="119.147.159.235" sid="CT-3rd-dongguan-235" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.232" sid="CT-3rd-dongguan-232" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.161.18" sid="CT-2nd-dongguan-18" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.104.207.18" sid="CT-2nd-jiangmen-18" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-3,disk-4,disk-5" class="2" />
+    <scs addr="202.104.207.14" sid="CT-2nd-jiangmen-14" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.104.240.130" sid="CT-2nd-shantou-130" svctype="2" op1="1" op2="26" province="广东" node="汕头" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.224.21" sid="CT-3rd-foshan-21" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="183.59.245.12" sid="CT-3rd-jiangmen-12" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.230" sid="CT-3rd-dongguan-230" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.59.245.10" sid="CT-3rd-jiangmen-10" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.227" sid="CT-3rd-dongguan-227" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="113.105.224.25" sid="CT-3rd-foshan-25" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.16.102.246" sid="CT-1st-dongguan-246" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.142.72.51" sid="CT-3rd-zhongshan-51" svctype="2" op1="1" op2="26" province="广东" node="中山" disks="disk-1,disk-2,disk-5,disk-6,disk-3,disk-4" class="2" />
+    <scs addr="183.59.245.2" sid="CT-3rd-jiangmen-2" svctype="2" op1="1" op2="26" province="广东" node="江门" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.147.159.228" sid="CT-3rd-dongguan-228" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.161.10" sid="CT-2nd-dongguan-10" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="121.14.53.19" sid="CT-1st-guangzhou-19" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1" class="2" />
+    <scs addr="113.105.161.14" sid="CT-2nd-dongguan-14" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.38.124.130" sid="CT-2nd-foshan-130" svctype="2" op1="1" op2="26" province="广东" node="佛山" disks="disk-1" class="2" />
+    <scs addr="218.16.102.250" sid="CT-1st-dongguan-250" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.161.22" sid="CT-2nd-dongguan-22" svctype="2" op1="1" op2="26" province="广东" node="东莞" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="183.61.4.67" sid="CT3-zhuhai-67" svctype="2" op1="1" op2="26" province="广东" node="珠海" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.21" sid="CT-3rd-SBS-guangzhou-21" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_hunan_SCS_group">
+    <scs addr="124.232.164.52" sid="CT-3rd-changsha-52" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.38" sid="CT-3rd-changsha-38" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.40" sid="CT-3rd-changsha-40" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.46" sid="CT-3rd-changsha-46" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.59" sid="CT-3rd-changsha-59" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.247.31.222" sid="CT-2nd-changsha-222" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-3,disk-4" class="2" />
+    <scs addr="124.232.164.36" sid="CT-3rd-changsha-36" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.43" sid="CT-3rd-changsha-43" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.61" sid="CT-3rd-changsha-61" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.58" sid="CT-3rd-changsha-58" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.50" sid="CT-3rd-changsha-50" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.34" sid="CT-3rd-changsha-34" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.45" sid="CT-3rd-changsha-45" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.60" sid="CT-3rd-changsha-60" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.62" sid="CT-3rd-changsha-62" svctype="2" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.22" sid="CT-3rd-SBS-guangzhou-22" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_hubei_SCS_group">
+    <scs addr="119.97.139.10" sid="CT-2nd-wuhan-10" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.77" sid="CT-3rd-wuhan-77" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.53.211.29" sid="CT-1st-wuhan-29" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-5,disk-4" class="2" />
+    <scs addr="61.136.224.14" sid="CT-2nd-yichang-14" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.238" sid="CT-3rd-wuhan-238" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.222" sid="CT-3rd-wuhan-222" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="61.136.224.38" sid="CT-3rd-yichang-38" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-1" class="2" />
+    <scs addr="61.136.224.6" sid="CT-2nd-yichang-6" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.194" sid="CT-3rd-wuhan-194" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.53.211.27" sid="CT-1st-wuhan-27" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.79" sid="CT-3rd-wuhan-79" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.97.139.12" sid="CT-2nd-wuhan-12" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.71" sid="CT-3rd-wuhan-71" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.97.139.3" sid="CT-2nd-wuhan-3" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.53.211.28" sid="CT-1st-wuhan-28" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.218" sid="CT-3rd-wuhan-218" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.234" sid="CT-3rd-wuhan-234" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.210" sid="CT-3rd-wuhan-210" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.136.224.2" sid="CT-2nd-yichang-2" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.136.224.10" sid="CT-2nd-yichang-10" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.67" sid="CT-3rd-wuhan-67" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.66" sid="CT-3rd-wuhan-66" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.97.139.11" sid="CT-2nd-wuhan-11" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.73" sid="CT-3rd-wuhan-73" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.198" sid="CT-3rd-wuhan-198" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.226" sid="CT-3rd-wuhan-226" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.214" sid="CT-3rd-wuhan-214" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.230" sid="CT-3rd-wuhan-230" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.136.224.34" sid="CT-3rd-yichang-34" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.136.224.26" sid="CT-3rd-yichang-26" svctype="2" op1="1" op2="28" province="湖北" node="宜昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.242" sid="CT-3rd-wuhan-242" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.183.254.246" sid="CT-3rd-wuhan-246" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.68" sid="CT-3rd-wuhan-68" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.175.146.69" sid="CT-3rd-wuhan-69" svctype="2" op1="1" op2="28" province="湖北" node="武汉" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.35" sid="CT-3rd-SBS-guangzhou-35" disks="disk-1,disk-3" type="0" key="SBS_tv189_dongnan_SCS_group">
+    <scs addr="60.190.202.237" sid="CT-2nd-shaoxing-237" svctype="2" op1="1" op2="24" province="浙江" node="绍兴" disks="disk-1,disk-3" class="2" />
+    <scs addr="122.224.104.253" sid="CT-2nd-hangzhou-253" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="122.224.104.250" sid="CT-2nd-hangzhou-250" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-3,disk-2" class="2" />
+    <scs addr="117.27.135.108" sid="CT-3rd-fuzhou-108" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="117.27.135.114" sid="CT-3rd-fuzhou-114" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.85.141.6" sid="CT-1st-xiamen-6" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1" class="2" />
+    <scs addr="117.27.135.112" sid="CT-3rd-fuzhou-112" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.85.141.10" sid="CT-1st-xiamen-10" svctype="0" op1="1" op2="25" province="福建" node="厦门" disks="disk-1" class="2" />
+    <scs addr="61.153.85.72" sid="CT-3rd-ningbo-72" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.69" sid="CT-3rd-ningbo-69" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="59.57.12.150" sid="CT-3rd-quanzhou-150" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-2,disk-3,disk-4,disk-6,disk-1" class="2" />
+    <scs addr="61.153.82.244" sid="CT-2nd-ningbo-244" svctype="0" op1="1" op2="24" province="浙江" node="宁波" disks="" class="2" />
+    <scs addr="61.153.85.76" sid="CT-3rd-ningbo-76" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="122.228.231.45" sid="CT-3rd-wenzhou-45" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="3" />
+    <scs addr="60.190.202.236" sid="CT-2nd-shaoxing-236" svctype="0" op1="1" op2="24" province="浙江" node="绍兴" disks="" class="2" />
+    <scs addr="122.224.104.252" sid="CT-2nd-hangzhou-252" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-4" class="2" />
+    <scs addr="61.154.8.26" sid="CT-2nd-fuzhou-26" svctype="0" op1="1" op2="25" province="福建" node="福州" disks="disk-1" class="2" />
+    <scs addr="117.27.254.13" sid="CT-2nd-fuzhou-13" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="61.153.82.242" sid="CT-2nd-ningbo-242" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1" class="2" />
+    <scs addr="117.27.135.106" sid="CT-3rd-fuzhou-106" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.53" sid="CT-3rd-jinhua-53" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="61.153.85.71" sid="CT-3rd-ningbo-71" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.68" sid="CT-3rd-ningbo-68" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.27.135.110" sid="CT-3rd-fuzhou-110" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.80" sid="CT-3rd-ningbo-80" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.74" sid="CT-3rd-ningbo-74" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="122.228.231.44" sid="CT-3rd-wenzhou-44" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="3" />
+    <scs addr="122.224.81.163" sid="CT-2nd-hangzhou-163" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-3" class="2" />
+    <scs addr="122.224.104.251" sid="CT-2nd-hangzhou-251" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2" class="2" />
+    <scs addr="61.153.82.243" sid="CT-2nd-ningbo-243" svctype="0" op1="1" op2="24" province="浙江" node="宁波" disks="" class="2" />
+    <scs addr="218.85.74.6" sid="CT-2nd-fuzhou-6" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2" class="2" />
+    <scs addr="117.25.144.194" sid="CT-2nd-xiamen-194" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="61.164.121.133" sid="CT-2nd-wenzhou-133" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-5,disk-6" class="3" />
+    <scs addr="61.153.85.73" sid="CT-3rd-ningbo-73" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.70" sid="CT-3rd-ningbo-70" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.67" sid="CT-3rd-ningbo-67" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.25.144.206" sid="CT-3rd-xiamen-206" svctype="2" op1="1" op2="25" province="福建" node="厦门" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.78" sid="CT-3rd-ningbo-78" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="60.190.202.234" sid="CT-2nd-shaoxing-234" svctype="2" op1="1" op2="24" province="浙江" node="绍兴" disks="disk-1" class="2" />
+  </sbs>
+  <sbs addr="113.108.235.36" sid="CT-3rd-SBS-guangzhou-36" disks="disk-1,disk-3,disk-6" type="0" key="SBS_tv189_huanan_SCS_group">
+    <scs addr="218.21.64.229" sid="CT-3rd-liuzhou-229" svctype="2" op1="1" op2="85" province="广西" node="柳州" disks="disk-1,disk-3,disk-6" class="2" />
+    <scs addr="113.17.141.252" sid="CT-3rd-nanning-252" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.16.230" sid="CT-3rd-chongqing-16.230" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.17.230" sid="CT-3rd-chongqing-17.230" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.226" sid="CT-3rd-nanning-226" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.139.56.254" sid="CT-1st-dazhou-254" svctype="2" op1="1" op2="31" province="四川" node="达州" disks="disk-1" class="2" />
+    <scs addr="219.151.6.61" sid="CT-3rd-guiyang-61" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.16.222" sid="CT-3rd-chongqing-16.222" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.232" sid="CT-3rd-nanning-232" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="110.188.128.142" sid="CT-3rd-meishan-142" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.253" sid="CT-3rd-nanning-253" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="119.84.17.246" sid="CT-3rd-chongqing-17.246" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.110" sid="CT-3rd-chengdu-110" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.107" sid="CT-3rd-chengdu-107" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="125.64.41.59" sid="CT-2nd-chengdu-59" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2" class="2" />
+    <scs addr="113.17.141.250" sid="CT-3rd-nanning-250" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="125.64.40.162" sid="CT-1st-chengdu-162" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.17.198" sid="CT-2nd-chongqing-17.198" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="61.139.107.18" sid="CT-1st-leshan-18" svctype="2" op1="1" op2="31" province="四川" node="乐山" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="119.84.16.242" sid="CT-3rd-chongqing-16.242" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.211.75.48" sid="CT-2nd-chengdu-48" svctype="0" op1="1" op2="31" province="四川" node="成都" disks="" class="2" />
+    <scs addr="119.84.16.246" sid="CT-3rd-chongqing-16.246" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.17.202" sid="CT-2nd-chongqing-202" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2" class="2" />
+    <scs addr="116.55.232.51" sid="CT-3rd-kunming-51" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.228" sid="CT-3rd-nanning-228" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-4,disk-5" class="2" />
+    <scs addr="125.64.41.58" sid="CT-2nd-chengdu-58" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2" class="2" />
+    <scs addr="219.151.6.59" sid="CT-3rd-guiyang-59" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="125.65.114.253" sid="CT-1st-mianyang-253" svctype="2" op1="1" op2="31" province="四川" node="绵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.118" sid="CT-3rd-chengdu-118" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.151.6.57" sid="CT-3rd-guiyang-57" svctype="2" op1="1" op2="83" province="贵州" node="贵阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.112" sid="CT-3rd-chengdu-112" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.116" sid="CT-3rd-chengdu-116" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.55" sid="CT-3rd-kunming-55" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="119.84.16.234" sid="CT-3rd-chongqing-16.234" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.16.250" sid="CT-3rd-chongqing-16.250" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="119.84.16.226" sid="CT-3rd-chongqing-16.226" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.208.172.158" sid="CT-1st-meishan-158" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-2,disk-5,disk-6" class="2" />
+    <scs addr="125.64.41.52" sid="CT-2nd-chengdu-52" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2" class="2" />
+    <scs addr="119.84.17.214" sid="CT-1st-chongqing-17.214" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="61.166.124.50" sid="CT-2nd-qujing-50" svctype="0" op1="1" op2="29" province="云南" node="曲靖" disks="" class="2" />
+    <scs addr="113.17.141.230" sid="CT-3rd-nanning-230" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.40" sid="CT-3rd-kunming-40" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.17.141.251" sid="CT-3rd-nanning-251" svctype="2" op1="1" op2="85" province="广西" node="南宁" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.166.124.51" sid="CT-2nd-qujing-51" svctype="0" op1="1" op2="29" province="云南" node="曲靖" disks="disk-1" class="2" />
+    <scs addr="221.236.24.120" sid="CT-3rd-chengdu-120" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="119.84.17.238" sid="CT-3rd-chongqing-17.238" svctype="2" op1="1" op2="32" province="重庆" node="重庆市" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.114" sid="CT-3rd-chengdu-114" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.157.152.176" sid="CT-1st-deyang-176" svctype="2" op1="1" op2="31" province="四川" node="德阳" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="125.64.41.60" sid="CT-2nd-chengdu-60" svctype="0" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2" class="2" />
+  </sbs>
+  <sbs addr="117.34.12.23" sid="CT-3rd-SBS-xian-23" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS-sichuan-SCS-group">
+    <scs addr="222.208.172.198" sid="CT-1st-meishan-198" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.170" sid="CT-3rd-meishan-170" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.178" sid="CT-3rd-meishan-178" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.109" sid="CT-3rd-chengdu-109" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.186" sid="CT-3rd-meishan-186" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.188.195.72" sid="CT-3rd-leshan-72" svctype="2" op1="1" op2="31" province="四川" node="乐山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="125.64.41.50" sid="CT-2nd-chengdu-50" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.103" sid="CT-3rd-chengdu-103" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.162" sid="CT-3rd-meishan-162" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="221.236.24.100" sid="CT-3rd-chengdu-100" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.182" sid="CT-3rd-meishan-182" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="221.236.24.105" sid="CT-3rd-chengdu-105" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.188.195.71" sid="CT-3rd-leshan-71" svctype="2" op1="1" op2="31" province="四川" node="乐山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.188.195.73" sid="CT-3rd-leshan-73" svctype="2" op1="1" op2="31" province="四川" node="乐山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.101" sid="CT-3rd-chengdu-101" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.104" sid="CT-3rd-chengdu-104" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.166" sid="CT-3rd-meishan-166" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="118.123.117.174" sid="CT-3rd-meishan-174" svctype="2" op1="1" op2="31" province="四川" node="眉山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.108" sid="CT-3rd-chengdu-108" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.236.24.106" sid="CT-3rd-chengdu-106" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="125.64.40.170" sid="CT-1st-chengdu-170" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="125.64.40.163" sid="CT-1st-chengdu-163" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="221.236.24.102" sid="CT-3rd-chengdu-102" svctype="2" op1="1" op2="31" province="四川" node="成都" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="117.34.12.24" sid="CT-3rd-SBS-xian-24" disks="disk-2,disk-3,disk-4,disk-5" type="0" key="SBS_xibei_1st_SCS_group">
+    <scs addr="1.192.125.173" sid="CT-3rd-zhengzhou-173" svctype="2" op1="1" op2="93" province="河南" node="郑州" disks="disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="222.83.46.149" sid="CT-2nd-wulumuqi-149" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.83.46.147" sid="CT-2nd-wulumuqi-147" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.83.46.165" sid="CT-3rd-wulumuqi-165" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="1.192.125.174" sid="CT-3rd-zhengzhou-174" svctype="2" op1="1" op2="93" province="河南" node="郑州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="1.192.125.164" sid="CT-3rd-zhengzhou-164" svctype="2" op1="1" op2="93" province="河南" node="郑州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.83.46.148" sid="CT-2nd-wulumuqi-148" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.83.46.168" sid="CT-3rd-wulumuqi-168" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.100.84.58" sid="CT3-lanzhou-58" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="1.192.125.165" sid="CT-3rd-zhengzhou-165" svctype="2" op1="1" op2="93" province="河南" node="郑州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="1.192.125.162" sid="CT-3rd-zhengzhou-162" svctype="2" op1="1" op2="93" province="河南" node="郑州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.83.46.161" sid="CT-3rd-wulumuqi-161" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.100.84.56" sid="CT3-lanzhou-56" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="117.34.12.25" sid="CT-3rd-SBS-xian-25" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_xibei_2nd_SCS_group">
+    <scs addr="59.49.15.24" sid="CT-3rd-taiyuan-24" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.115.22.99" sid="CT-2nd-xian-99" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="117.34.12.9" sid="CT-3rd-xian-9" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.62" sid="CT-3rd-xian-62" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.40" sid="CT-3rd-xian-40" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.35" sid="CT-3rd-xian-35" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-5,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="117.34.12.47" sid="CT-3rd-xian-47" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.44" sid="CT-3rd-xian-44" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.37" sid="CT-3rd-xian-37" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.27" sid="CT-3rd-taiyuan-27" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.29" sid="CT-3rd-taiyuan-29" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="117.34.12.4" sid="CT-3rd-xian-4" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.20" sid="CT-3rd-taiyuan-20" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.68" sid="CT-3rd-xian-3" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.21" sid="CT-3rd-taiyuan-21" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.41" sid="CT-3rd-xian-41" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.39" sid="CT-3rd-xian-39" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.49" sid="CT-3rd-xian-49" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.46" sid="CT-3rd-xian-46" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.43" sid="CT-3rd-xian-43" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.36" sid="CT-3rd-xian-36" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.7" sid="CT-3rd-xian-7" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.19" sid="CT-3rd-taiyuan-19" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.5" sid="CT-3rd-xian-5" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.18" sid="CT-3rd-taiyuan-18" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.66" sid="CT-3rd-xian-66" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.38" sid="CT-3rd-xian-38" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.48" sid="CT-3rd-xian-48" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.45" sid="CT-3rd-xian-45" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.42" sid="CT-3rd-xian-42" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.28" sid="CT-3rd-taiyuan-28" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.67" sid="CT-3rd-xian-2" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="183.218.12.184" sid="YSTEN-SBS-yingtan-184" disks="disk-1" type="0" key="SBS_YSTEN_SCS_group">
+    <scs addr="183.218.12.185" sid="YSTEN-yingtan-185" svctype="2" op1="7" op2="84" province="江西" node="鹰潭YSTEN" disks="disk-1" class="2" />
+    <scs addr="183.218.12.184" sid="YSTEN-yingtan-184" svctype="2" op1="7" op2="84" province="江西" node="鹰潭YSTEN" disks="disk-1" class="2" />
+  </sbs>
+  <sbs addr="202.108.17.171" sid="CNTV-SBS-beijing-17" disks="" type="0" key="SBS_CNTV_SCS_group">
+    <scs addr="123.129.247.67" sid="CNTV-jinan-67" svctype="0" op1="6" op2="90" province="山东" node="济南CNTV" disks="" class="2" />
+    <scs addr="125.46.64.54" sid="CNTV-zhengzhou-54" svctype="0" op1="6" op2="93" province="河南" node="郑州CNTV" disks="disk-4" class="2" />
+    <scs addr="221.204.185.151" sid="CNTV-taiyuan-151" svctype="0" op1="1" op2="99" province="山西" node="太原CNTV" disks="" class="2" />
+    <scs addr="125.46.64.56" sid="CNTV-zhengzhou-56" svctype="0" op1="6" op2="93" province="河南" node="郑州CNTV" disks="disk-1,disk-2" class="2" />
+    <scs addr="123.129.247.69" sid="CNTV-jinan-69" svctype="0" op1="6" op2="90" province="山东" node="济南CNTV" disks="" class="2" />
+  </sbs>
+  <sbs addr="211.100.38.35" sid="CT-2rd-SBS-yingchuang-35" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="1" key="SBS_CT_3rd_SAS_group">
+    <sas addr="220.181.10.45" sid="CT-3rd-beijing-45" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.3" sid="CT-3rd-beijing-3" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+    <sas addr="220.181.10.5" sid="CT-3rd-beijing-5" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+    <sas addr="220.181.10.49" sid="CT-3rd-beijing-49" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.34" sid="CT-3rd-beijing-34" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.7" sid="CT-3rd-beijing-7" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+    <sas addr="219.143.244.130" sid="CT-3rd-SAS-beijing-130" svctype="1" op1="1" op2="21" province="北京" node="盈创IDC" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.31" sid="CT-3rd-beijing-31" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.44" sid="CT-3rd-beijing-44" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.32" sid="CT-3rd-beijing-32" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.35" sid="CT-3rd-beijing-35" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <sas addr="211.100.38.42" sid="CT-2nd-SAS-beijing-42" svctype="1" op1="1" op2="21" province="北京" node="盈创IDC" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="220.181.10.4" sid="CT-3rd-beijing-4" svctype="1" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+    <sas addr="219.143.244.131" sid="CT-3rd-SAS-beijing-131" svctype="1" op1="1" op2="21" province="北京" node="盈创IDC" disks="disk-1,disk-2,disk-3,disk-4,disk-6,disk-5" class="2" />
+    <sas addr="220.181.10.30" sid="CT-3rd-beijing-30" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.43" sid="CT-3rd-beijing-43" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.33" sid="CT-3rd-beijing-33" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="220.181.10.36" sid="CT-3rd-beijing-36" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="211.100.38.36" sid="CT-2nd-SBS-beijing-36" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_tv189_north_SCS_group">
+    <scs addr="220.181.81.54" sid="CT-2nd-beijing-54" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.100.84.61" sid="CT-2nd-lanzhou-61" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.115.22.100" sid="CT-2nd-xian-100" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="59.46.201.164" sid="CT-3rd-dalian-164" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.13" sid="CT-3rd-xian-13" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="1.192.125.170" sid="CT-3rd-zhengzhou-170" svctype="2" op1="1" op2="93" province="河南" node="郑州" disks="disk-1,disk-2,disk-4,disk-5,disk-3" class="2" />
+    <scs addr="124.115.22.107" sid="CT-2nd-xian-107" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-3,disk-4" class="2" />
+    <scs addr="219.147.254.6" sid="CT3-harbin-6" svctype="2" op1="1" op2="89" province="黑龙江" node="哈尔滨" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.46.201.163" sid="CT-3rd-dalian-163" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.46.204.76" sid="CT-3rd-dalian-76" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.115.22.108" sid="CT-2nd-xian-108" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="119.161.148.113" sid="SK-113" svctype="0" op1="1" op2="21" province="北京" node="通州" disks="disk-1" class="2" />
+    <scs addr="222.169.228.162" sid="CT-3rd-changchun-162" svctype="2" op1="1" op2="95" province="吉林" node="长春" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.222.96.30" sid="CT-3rd-langfang-30" svctype="2" op1="1" op2="92" province="河北" node="廊坊" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.100.84.55" sid="CT3-lanzhou-55" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.115.22.98" sid="CT-2nd-xian-98" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-3,disk-1,disk-2" class="2" />
+    <scs addr="219.147.254.5" sid="CT3-harbin-5" svctype="2" op1="1" op2="89" province="黑龙江" node="哈尔滨" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.115.22.106" sid="CT-2nd-xian-106" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2" class="2" />
+    <scs addr="202.100.84.54" sid="CT3-lanzhou-54" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.26" sid="CT-3rd-taiyuan-26" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.34.12.11" sid="CT-3rd-xian-11" svctype="2" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.239.30.122" sid="CT-3rd-tianjin-122" svctype="2" op1="1" op2="100" province="天津" node="天波" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="202.100.84.62" sid="CT-2nd-lanzhou-62" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-5,disk-6" class="2" />
+    <scs addr="222.83.46.162" sid="CT-3rd-wulumuqi-162" svctype="2" op1="1" op2="96" province="新疆" node="乌鲁木齐" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="202.100.84.53" sid="CT3-lanzhou-53" svctype="2" op1="1" op2="82" province="甘肃" node="兰州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.49.15.22" sid="CT-3rd-taiyuan-22" svctype="2" op1="1" op2="99" province="山西" node="太原" disks="disk-1,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="219.147.254.8" sid="CT3-harbin-8" svctype="2" op1="1" op2="89" province="黑龙江" node="哈尔滨" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="222.169.228.164" sid="CT-3rd-changchun-164" svctype="2" op1="1" op2="95" province="吉林" node="长春" disks="disk-1,disk-2,disk-3,disk-6" class="2" />
+  </sbs>
+  <sbs addr="211.100.38.39" sid="CT-2nd-SBS-beijing-39" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS-beijing-SCS-group">
+    <scs addr="221.239.30.118" sid="CT-3rd-tianjin-118" svctype="2" op1="1" op2="100" province="天津" node="天波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.181.81.34" sid="CT-2nd-beijing-34" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="59.46.201.165" sid="CT-3rd-dalian-165" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.169.228.168" sid="CT-3rd-changchun-168" svctype="2" op1="1" op2="95" province="吉林" node="长春" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="59.46.201.174" sid="CT-3rd-dalian-174" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.169.228.166" sid="CT-3rd-changchun-166" svctype="2" op1="1" op2="95" province="吉林" node="长春" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.222.96.18" sid="CT-3rd-langfang-18" svctype="2" op1="1" op2="92" province="河北" node="廊坊" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="59.46.204.75" sid="CT-3rd-dalian-75" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.181.81.50" sid="CT-2nd-beijing-50" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.181.81.30" sid="CT-2nd-beijing-30" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.46.201.173" sid="CT-3rd-dalian-173" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.46.201.162" sid="CT-3rd-dalian-162" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.169.228.169" sid="CT-3rd-changchun-169" svctype="2" op1="1" op2="95" province="吉林" node="长春" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.239.30.106" sid="CT-3rd-tianjin-106" svctype="2" op1="1" op2="100" province="天津" node="天波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.222.96.6" sid="CT-3rd-langfang-6" svctype="2" op1="1" op2="92" province="河北" node="廊坊" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.239.30.114" sid="CT-3rd-tianjin-114" svctype="2" op1="1" op2="100" province="天津" node="天波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.181.81.46" sid="CT-2nd-beijing-46" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="220.181.81.58" sid="CT-2nd-beijing-58" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.222.96.10" sid="CT-3rd-langfang-10" svctype="2" op1="1" op2="92" province="河北" node="廊坊" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.46.201.166" sid="CT-3rd-dalian-166" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.169.228.167" sid="CT-3rd-changchun-167" svctype="2" op1="1" op2="95" province="吉林" node="长春" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.222.96.14" sid="CT-3rd-langfang-14" svctype="2" op1="1" op2="92" province="河北" node="廊坊" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.239.30.110" sid="CT-3rd-tianjin-110" svctype="2" op1="1" op2="100" province="天津" node="天波" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.222.96.2" sid="CT-3rd-langfang-2" svctype="2" op1="1" op2="92" province="河北" node="廊坊" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.147.254.3" sid="CT3-harbin-3" svctype="2" op1="1" op2="89" province="黑龙江" node="哈尔滨" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.46.204.74" sid="CT-3rd-dalian-74" svctype="2" op1="1" op2="91" province="辽宁" node="大连" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.146" sid="CT-3rd-SBS-nanjing-146" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_jiangsu_1st_SCS_group">
+    <scs addr="222.185.226.22" sid="CT-3rd-changzhou-22" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.224.103.134" sid="CT-2nd-suzhou-134" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.224.106.98" sid="CT-2nd-suzhou-98" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="58.215.80.242" sid="CT-3rd-wuxi-242" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.245" sid="CT-3rd-wuxi-245" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.250" sid="CT-3rd-wuxi-250" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.253" sid="CT-3rd-wuxi-253" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.12.165" sid="CT-3rd-suzhou-165" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.21.21" sid="CT-3rd-suzhou-21" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.249" sid="CT-3rd-wuxi-249" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.229.238.162" sid="CT-3rd-xuzhou-162" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.229.238.146" sid="CT-3rd-xuzhou-146" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.14" sid="CT-3rd-changzhou-14" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.220.150.22" sid="CT-3rd-yangzhou-22" svctype="2" op1="1" op2="23" province="江苏" node="扬州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.224.180.194" sid="CT-2nd-suzhou-194" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.224.106.90" sid="CT-2nd-suzhou-90" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.243" sid="CT-3rd-wuxi-243" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.247" sid="CT-3rd-wuxi-247" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.251" sid="CT-3rd-wuxi-251" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.12.162" sid="CT-3rd-suzhou-162" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.21.19" sid="CT-3rd-suzhou-19" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.12.172" sid="CT-3rd-suzhou-172" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.148.42" sid="CT-1st-wuxi-42" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-4,disk-5" class="2" />
+    <scs addr="218.4.21.28" sid="CT-3rd-suzhou-28" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.229.238.138" sid="CT-3rd-xuzhou-138" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.6" sid="CT-3rd-changzhou-6" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.18" sid="CT-3rd-changzhou-18" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.220.150.26" sid="CT-3rd-yangzhou-26" svctype="2" op1="1" op2="23" province="江苏" node="扬州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.237" sid="CT-3rd-wuxi-237" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.244" sid="CT-3rd-wuxi-244" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.248" sid="CT-3rd-wuxi-248" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.252" sid="CT-3rd-wuxi-252" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.12.164" sid="CT-3rd-suzhou-164" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.220.150.50" sid="CT-3rd-yangzhou-50" svctype="2" op1="1" op2="23" province="江苏" node="扬州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.21.20" sid="CT-3rd-suzhou-20" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.220.150.46" sid="CT-3rd-yangzhou-46" svctype="2" op1="1" op2="23" province="江苏" node="扬州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.229.239.194" sid="CT-3rd-xuzhou-194" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.229.238.142" sid="CT-3rd-xuzhou-142" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.10" sid="CT-3rd-changzhou-10" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.147" sid="CT-3rd-SBS-nanjing-147" disks="disk-1,disk-2,disk-3,disk-4,disk-5" type="0" key="SBS_anhui_SCS_group">
+    <scs addr="61.191.37.251" sid="CT-2nd-hefei-251" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="61.191.37.253" sid="CT-2nd-hefei-253" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-4,disk-5,disk-6,disk-3" class="2" />
+    <scs addr="61.191.37.150" sid="CT-3rd-hefei-150" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-4,disk-5" class="2" />
+    <scs addr="61.191.37.136" sid="CT-3rd-hefei-136" svctype="1" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="61.191.37.148" sid="CT-3rd-hefei-148" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.245" sid="CT-2nd-hefei-245" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.243" sid="CT-2nd-hefei-243" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.152" sid="CT-3rd-hefei-152" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.140" sid="CT-3rd-hefei-140" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.246" sid="CT-3rd-hefei-246" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.250" sid="CT-2nd-hefei-250" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.254" sid="CT-3rd-hefei-254" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.146" sid="CT-3rd-hefei-146" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.148" sid="CT-3rd-SBS-nanjing-148" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_jiangxi_SCS_group">
+    <scs addr="117.41.252.118" sid="CT-3rd-nanchang-118" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.121" sid="CT-3rd-nanchang-121" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-6,disk-3,disk-4" class="2" />
+    <scs addr="218.95.38.130" sid="CT-2nd-jiujiang-130" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-3,disk-4,disk-5,disk-6,disk-1" class="2" />
+    <scs addr="218.95.38.140" sid="CT-3rd-jiujiang-140" svctype="0" op1="1" op2="84" province="江西" node="九江" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.102" sid="CT-3rd-nanchang-102" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.119" sid="CT-3rd-nanchang-119" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-2,disk-3,disk-5,disk-6,disk-1" class="2" />
+    <scs addr="218.95.38.131" sid="CT-2nd-jiujiang-131" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.105" sid="CT-3rd-nanchang-105" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.103" sid="CT-3rd-nanchang-103" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.104" sid="CT-3rd-nanchang-104" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.21.247.195" sid="CT-2nd-nanchang-195" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="218.95.38.133" sid="CT-2nd-jiujiang-133" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.95.38.139" sid="CT-3rd-jiujiang-139" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.150" sid="CT-3rd-SBS-nanjing-150" disks="disk-2,disk-4,disk-5,disk-6" type="0" key="SBS_zhejiang_1st_SCS_group">
+    <scs addr="122.224.81.165" sid="CT-2nd-hangzhou-165" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="122.224.81.164" sid="CT-2nd-hangzhou-164" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.55" sid="CT-3rd-jinhua-55" svctype="0" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.50" sid="CT-3rd-jinhua-50" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.57" sid="CT-3rd-jinhua-57" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="61.164.121.141" sid="CT-2nd-wenzhou-141" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="3" />
+    <scs addr="61.164.121.131" sid="CT-2nd-wenzhou-131" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="3" />
+    <scs addr="122.224.81.162" sid="CT-2nd-hangzhou-162" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.52" sid="CT-3rd-jinhua-52" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.56" sid="CT-3rd-jinhua-72" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.164.121.139" sid="CT-2nd-wenzhou-139" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="3" />
+    <scs addr="122.224.81.167" sid="CT-2nd-hangzhou-167" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2,disk-4,disk-5,disk-3" class="2" />
+    <scs addr="122.224.81.168" sid="CT-2nd-hangzhou-168" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.54" sid="CT-3rd-jinhua-54" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.96.51" sid="CT-3rd-jinhua-51" svctype="2" op1="1" op2="24" province="浙江" node="金华" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="122.228.231.43" sid="CT-3rd-wenzhou-43" svctype="2" op1="1" op2="24" province="浙江" node="温州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="3" />
+    <scs addr="115.236.102.136" sid="CT-3rd-hangzhou-136" svctype="2" op1="1" op2="24" province="浙江" node="杭州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="61.164.121.135" sid="CT-2nd-wenzhou-135" svctype="0" op1="1" op2="24" province="浙江" node="温州" disks="disk-2,disk-5,disk-6" class="3" />
+  </sbs>
+  <sbs addr="218.2.139.151" sid="CT-3rd-SBS-nanjing-151" disks="" type="0" key="SBS-zhuanyong-SCS-group">
+    <scs addr="59.57.12.151" sid="CT-2nd-quanzhou-151" svctype="2" op1="1" op2="25" province="福建" node="泉州" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-1" class="2" />
+    <scs addr="222.73.114.242" sid="CT-2nd-shanghai-242" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2" class="2" />
+    <scs addr="121.15.12.93" sid="CT-1st-shenzhen-93" svctype="2" op1="1" op2="26" province="广东" node="深圳" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.153.85.66" sid="CT-3rd-ningbo-66" svctype="2" op1="1" op2="24" province="浙江" node="宁波" disks="disk-2,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.157" sid="CT-3rd-SBS-nanjing-157" disks="disk-1,disk-2,disk-3,disk-4" type="0" key="SBS_nanjing_SCS_group">
+    <scs addr="218.2.203.30" sid="CT-2nd-nanjing-30" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="218.2.139.156" sid="CT3-nanjing-156" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.153" sid="CT3-nanjing-153" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.192" sid="CT3-nanjing-192" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.177" sid="CT3.d-nanjing-177" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.185" sid="CT3.d-nanjing-185" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.154" sid="CT3-nanjing-154" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="218.2.139.152" sid="CT3-nanjing-152" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.189" sid="CT3-nanjing-189" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="218.2.139.181" sid="CT3.d-nanjing-181" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.187" sid="CT3.d-nanjing-187" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.203.42" sid="CT-2nd-nanjing-42" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="218.2.139.155" sid="CT3-nanjing-155" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.195" sid="CT3-nanjing-195" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.190" sid="CT3-nanjing-190" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.194" sid="CT3-nanjing-194" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.183" sid="CT3.d-nanjing-183" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.158" sid="CT-3rd-SBS-nanjing-158" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS-shanghai-SCS-group">
+    <scs addr="180.153.104.247" sid="CT-3rd-shanghai.zr-247" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.12.103" sid="CT-3rd-shanghai.hx-103" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.14.68" sid="CT-3rd-jinan-68" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.231" sid="CT-3rd-shanghai.zr-231" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-3,disk-4,disk-5,disk-6,disk-2" class="2" />
+    <scs addr="180.153.104.237" sid="CT-3rd-shanghai.zr-237" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-6,disk-5" class="2" />
+    <scs addr="222.73.12.119" sid="CT-3rd-shanghai.hx-119" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.244" sid="CT-3rd-shanghai.zr-244" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.234" sid="CT-3rd-shanghai.zr-234" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.12.105" sid="CT-3rd-shanghai.hx-105" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.14.76" sid="CT-3rd-jinan-76" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.14.69" sid="CT-3rd-jinan-69" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.13.58" sid="CT-2nd-jinan-58" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.246" sid="CT-3rd-shanghai.zr-246" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.12.121" sid="CT-3rd-shanghai.hx-121" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.243" sid="CT-3rd-shanghai.zr-243" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.245" sid="CT-3rd-shanghai.zr-245" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.12.104" sid="CT-3rd-shanghai.hx-104" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.14.77" sid="CT-3rd-jinan-77" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.13.59" sid="CT-2nd-jinan-59" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.235" sid="CT-3rd-shanghai.zr-235" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.12.117" sid="CT-3rd-shanghai.hx-117" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.13.66" sid="CT-2nd-jinan-66" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.242" sid="CT-3rd-shanghai.zr-242" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="218.2.139.159" sid="CT-3rd-SBS-nanjing-159" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_tv189_huadong_SCS_group">
+    <scs addr="222.73.12.106" sid="CT-3rd-shanghai.hx-106" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.227" sid="CT-3rd-shanghai.zr-227" svctype="0" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.95.38.141" sid="CT-3rd-jiujiang-141" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.95.38.138" sid="CT-3rd-jiujiang-138" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-1,disk-2,disk-4" class="2" />
+    <scs addr="61.191.37.156" sid="CT-3rd-hefei-156" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.14.75" sid="CT-3rd-jinan-75" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.105.42" sid="CT-2nd-shanghai-42" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="222.73.114.250" sid="CT-2nd-shanghai-250" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="180.153.104.249" sid="CT-3rd-shanghai.zr-249" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="180.153.104.226" sid="CT-3rd-shanghai.zr-226" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.12.123" sid="CT-3rd-shanghai.hx-123" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.21.247.194" sid="CT-2nd-nanchang-194" svctype="0" op1="1" op2="84" province="江西" node="南昌" disks="disk-2" class="2" />
+    <scs addr="117.41.252.100" sid="CT-3rd-nanchang-100" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.191.37.154" sid="CT-3rd-hefei-154" svctype="2" op1="1" op2="63" province="安徽" node="合肥" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="222.73.105.18" sid="CT-2nd-shanghai-18" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="219.146.13.67" sid="CT-2nd-jinan-67" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.105.179" sid="CT-1st-shanghai-179" svctype="0" op1="1" op2="22" province="上海" node="杨高南路" disks="" class="2" />
+    <scs addr="117.41.252.116" sid="CT-3rd-nanchang-116" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.114" sid="CT-3rd-nanchang-114" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-1,disk-2,disk-4,disk-6" class="2" />
+    <scs addr="222.73.92.100" sid="CT-3rd-shanghai.ba-100" svctype="2" op1="1" op2="22" province="上海" node="北艾" disks="disk-1,disk-2,disk-6,disk-4,disk-5" class="2" />
+    <scs addr="218.95.38.132" sid="CT-2nd-jiujiang-132" svctype="2" op1="1" op2="84" province="江西" node="九江" disks="disk-2,disk-5,disk-6" class="2" />
+    <scs addr="117.41.252.98" sid="CT-3rd-nanchang-98" svctype="2" op1="1" op2="84" province="江西" node="南昌" disks="disk-3,disk-4,disk-5" class="2" />
+    <scs addr="222.73.12.125" sid="CT-3rd-shanghai.hx-125" svctype="2" op1="1" op2="22" province="上海" node="华信" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="219.146.14.74" sid="CT-3rd-jinan-74" svctype="2" op1="1" op2="90" province="山东" node="济南" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.114.226" sid="CT-2nd-shanghai-226" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-3,disk-4" class="2" />
+    <scs addr="222.73.105.26" sid="CT-2nd-shanghai-26" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3" class="2" />
+    <scs addr="222.73.105.178" sid="CT-1st-shanghai-178" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1" class="2" />
+    <scs addr="222.73.114.218" sid="CT-2nd-shanghai-218" svctype="2" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-2,disk-3,disk-4" class="2" />
+  </sbs>
+  <sbs addr="219.143.244.145" sid="CT-2nd-SBS-beijing-145" disks="disk-2" type="0" key="SBS_CNTV_SCSforCT_group">
+    <scs addr="222.73.105.38" sid="CT-2nd-shanghai-38" svctype="0" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-2" class="2" />
+    <scs addr="222.73.114.210" sid="CT-2nd-shanghai-210" svctype="0" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="113.108.235.41" sid="CT-3rd-guangzhou-41" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.90" sid="CT-3rd-guangzhou-90" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="122.224.184.53" sid="CNTV-hangzhou-53" svctype="0" op1="6" op2="24" province="浙江" node="杭州CNTV" disks="" class="2" />
+    <scs addr="61.191.37.244" sid="CT-2nd-hefei-244" svctype="0" op1="1" op2="63" province="安徽" node="合肥" disks="disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.108.235.96" sid="CT-3rd-guangzhou-96" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="211.100.4.242" sid="CT-2nd-beijing-242" svctype="0" op1="1" op2="21" province="北京" node="盈创IDC" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="222.73.114.234" sid="CT-2nd-shanghai-234" svctype="0" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.42.249.186" sid="CT-2nd-guangzhou-186" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-2" class="2" />
+    <scs addr="220.181.81.42" sid="CT-2nd-beijing-42" svctype="0" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1" class="2" />
+    <scs addr="125.64.41.51" sid="CT-2nd-chengdu-51" svctype="0" op1="1" op2="31" province="四川" node="成都" disks="disk-2,disk-6" class="2" />
+    <scs addr="122.224.184.55" sid="CNTV-hangzhou-55" svctype="0" op1="6" op2="24" province="浙江" node="杭州CNTV" disks="" class="2" />
+    <scs addr="113.105.246.146" sid="CT-3rd-foshan-146" svctype="0" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="124.232.164.44" sid="CT-3rd-changsha-44" svctype="0" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.85.141.2" sid="CT-1st-xiamen-2" svctype="0" op1="1" op2="25" province="福建" node="厦门" disks="disk-3" class="2" />
+    <scs addr="117.34.12.34" sid="CT-3rd-xian-34" svctype="0" op1="1" op2="30" province="陕西" node="西安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.105.10" sid="CT-2nd-shanghai-10" svctype="0" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2" class="2" />
+    <scs addr="113.105.246.147" sid="CT-3rd-foshan-147" svctype="0" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="122.224.184.51" sid="CNTV-hangzhou-51" svctype="0" op1="6" op2="24" province="浙江" node="杭州CNTV" disks="" class="2" />
+    <scs addr="113.108.235.40" sid="CT-3rd-guangzhou-40" svctype="0" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="113.105.246.150" sid="CT-3rd-foshan-150" svctype="0" op1="1" op2="26" province="广东" node="佛山" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="124.232.164.42" sid="CT-3rd-changsha-42" svctype="0" op1="1" op2="27" province="湖南" node="长沙" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.73.105.2" sid="CT-2nd-shanghai-2" svctype="0" op1="1" op2="22" province="上海" node="杨高南路" disks="disk-1,disk-2,disk-3" class="2" />
+  </sbs>
+  <sbs addr="220.181.10.56" sid="CT-3rd-SBS-zhaowei-56" disks="disk-1,disk-2,disk-3,disk-5,disk-6" type="0" key="SBS_Keynote_SCS_group">
+    <scs addr="220.181.81.38" sid="CT-2nd-beijing-38" svctype="2" op1="1" op2="21" province="北京" node="洋桥" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="117.27.135.104" sid="CT-3rd-fuzhou-104" svctype="2" op1="1" op2="25" province="福建" node="福州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="116.55.232.53" sid="CT-3rd-kunming-53" svctype="2" op1="1" op2="29" province="云南" node="昆明" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="180.153.104.251" sid="CT-3rd-shanghai.zr-251" svctype="2" op1="1" op2="22" province="上海" node="真如" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="59.42.249.179" sid="CT-2nd-guangzhou-179" svctype="2" op1="1" op2="26" province="广东" node="广州" disks="disk-1,disk-2,disk-3,disk-4,disk-5" class="2" />
+    <scs addr="222.241.151.196" sid="CT-3rd-hengyang-196" svctype="2" op1="1" op2="27" province="湖南" node="衡阳" disks="disk-1,disk-2,disk-6" class="2" />
+  </sbs>
+  <sbs addr="220.181.10.9" sid="ITV-SBS-beijing.zhaowei-9" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" type="1" key="SBS_ITV_north_SCS_group">
+    <sas addr="220.181.10.69" sid="CT-3rd-beijing-69" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+    <sas addr="220.181.10.70" sid="CT-3rd-beijing-70" svctype="2" op1="1" op2="21" province="北京" node="兆维" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10" class="2" />
+  </sbs>
+  <sbs addr="220.181.168.170" sid="CNTV-SBS-beijing.dongsi-170" disks="" type="1" key="SBS_CNTV_SAS_group">
+    <sas addr="220.181.168.166" sid="CNTV-SAS-beijing-166" svctype="0" op1="6" op2="21" province="CNTV" node="东四" disks="" class="2" />
+    <sas addr="220.181.168.171" sid="CNTV-SAS-beijing-171" svctype="0" op1="6" op2="21" province="CNTV" node="东四" disks="" class="2" />
+    <sas addr="220.181.168.110" sid="CNTV-SAS-beijing-110" svctype="0" op1="6" op2="21" province="CNTV" node="东四" disks="" class="2" />
+    <sas addr="220.181.168.172" sid="CNTV-SAS-beijing-172" svctype="0" op1="6" op2="21" province="CNTV" node="东四" disks="" class="2" />
+  </sbs>
+  <sbs addr="221.231.142.250" sid="CT-1rd-SBS-nanjing-250" disks="disk-1,disk-2,disk-3,disk-4" type="0" key="SBS_tv189_jiangsu_SCS_group">
+    <scs addr="218.4.21.18" sid="CT-3rd-suzhou-18" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="218.4.12.170" sid="CT-3rd-suzhou-170" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.148.38" sid="CT-2nd-wuxi-38" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2" class="2" />
+    <scs addr="222.185.226.78" sid="CT-3rd-changzhou-78" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-6" class="2" />
+    <scs addr="58.216.44.206" sid="CT-2nd-changzhou-206" svctype="0" op1="1" op2="23" province="江苏" node="常州" disks="disk-2,disk-3" class="2" />
+    <scs addr="222.190.29.222" sid="CT-1st-nanjing-222" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-2" class="2" />
+    <scs addr="58.215.80.234" sid="CT-3rd-wuxi-234" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.155.95.20" sid="CT-2nd-xuzhou-20" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-1" class="2" />
+    <scs addr="58.220.150.30" sid="CT-3rd-yangzhou-30" svctype="2" op1="1" op2="23" province="江苏" node="扬州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.102" sid="CT-3rd-changzhou-102" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.30" sid="CT-3rd-changzhou-30" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.203.46" sid="CT-2nd-nanjing-46" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2" class="2" />
+    <scs addr="218.2.203.34" sid="CT-2nd-nanjing-34" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-3,disk-4" class="2" />
+    <scs addr="58.216.44.198" sid="CT-2nd-changzhou-198" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-4" class="2" />
+    <scs addr="221.224.106.94" sid="CT-2nd-suzhou-94" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4" class="2" />
+    <scs addr="221.224.180.190" sid="CT-2nd-suzhou-190" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.12.168" sid="CT-3rd-suzhou-168" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.148.26" sid="CT-2nd-wuxi-26" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2" class="2" />
+    <scs addr="58.215.148.62" sid="CT-1st-wuxi-62" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.216.44.202" sid="CT-2nd-changzhou-202" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1" class="2" />
+    <scs addr="218.2.139.171" sid="CT3.d-nanjing-171" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.190.29.218" sid="CT-1st-nanjing-218" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2" class="2" />
+    <scs addr="222.185.226.2" sid="CT-3rd-changzhou-2" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-3,disk-4" class="2" />
+    <scs addr="221.224.103.130" sid="CT-2nd-suzhou-130" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2" class="2" />
+    <scs addr="218.2.139.173" sid="CT3.d-nanjing-173" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.94" sid="CT-3rd-changzhou-94" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.167" sid="CT3.d-nanjing-167" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.21.24" sid="CT-3rd-suzhou-24" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.175" sid="CT3.d-nanjing-175" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.228" sid="CT-3rd-wuxi-228" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.190.29.226" sid="CT-1st-nanjing-226" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-3,disk-4" class="2" />
+    <scs addr="218.4.12.166" sid="CT-3rd-suzhou-166" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.215.80.232" sid="CT-3rd-wuxi-232" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.203.26" sid="CT-2nd-nanjing-26" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2" class="2" />
+    <scs addr="58.215.148.30" sid="CT-2nd-wuxi-30" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-2" class="2" />
+    <scs addr="218.2.139.169" sid="CT3.d-nanjing-169" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.4.21.22" sid="CT-3rd-suzhou-22" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.191" sid="CT3-nanjing-191" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-6" class="2" />
+    <scs addr="221.224.106.86" sid="CT-2nd-suzhou-86" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2" class="2" />
+    <scs addr="222.185.226.26" sid="CT-3rd-changzhou-26" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-5,disk-6" class="2" />
+    <scs addr="58.215.148.34" sid="CT-2nd-wuxi-34" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2" class="2" />
+    <scs addr="58.215.80.230" sid="CT-3rd-wuxi-230" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="222.185.226.86" sid="CT-3rd-changzhou-86" svctype="2" op1="1" op2="23" province="江苏" node="常州" disks="disk-1,disk-2,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.2.139.165" sid="CT3.d-nanjing-165" svctype="2" op1="1" op2="23" province="江苏" node="南京" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="221.224.103.142" sid="CT-2nd-suzhou-142" svctype="2" op1="1" op2="23" province="江苏" node="苏州" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="61.155.95.21" sid="CT-2nd-xuzhou-21" svctype="2" op1="1" op2="23" province="江苏" node="徐州" disks="disk-2,disk-1,disk-4" class="2" />
+    <scs addr="58.215.80.226" sid="CT-3rd-wuxi-226" svctype="2" op1="1" op2="23" province="江苏" node="无锡" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="36.250.1.4" sid="Vtion-SBS_for_SAS-fuzhou-4" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="1" key="SBS_CU_fuzhou_SAS_group">
+    <sas addr="58.22.105.117" sid="Vtion-SAS-fuzhou-117" svctype="2" op1="1" op2="25" province="福建" node="福州橘洲园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <sas addr="58.22.105.119" sid="Vtion-SAS-fuzhou-119" svctype="2" op1="1" op2="25" province="福建" node="福州橘洲园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="36.250.1.5" sid="Vtion-SBS_for_SCS-fuzhou-5" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" type="0" key="SBS_CU_fuzhou_SCS_group">
+    <scs addr="175.44.133.178" sid="Vtion-sanming-178" svctype="2" op1="3" op2="25" province="福建" node="三明联通新大楼" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="36.249.63.42" sid="Vtion-quanzhou-42" svctype="2" op1="3" op2="25" province="福建" node="泉州南安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.22.162.162" sid="Vtion-ningde-162" svctype="2" op1="3" op2="25" province="福建" node="宁德闽东中路" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.22.191.18" sid="Vtion-nanping-18" svctype="2" op1="3" op2="25" province="福建" node="南平黄金山" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.23.111.82" sid="Vtion-zhangzhou-82" svctype="2" op1="3" op2="25" province="福建" node="漳州芗城机房" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="36.249.63.34" sid="Vtion-quanzhou-34" svctype="2" op1="3" op2="25" province="福建" node="泉州南安" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="112.111.143.136" sid="Vtion-longyan-136" svctype="2" op1="3" op2="25" province="福建" node="龙岩街心花园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.22.154.218" sid="Vtion-putian-218" svctype="2" op1="3" op2="25" province="福建" node="莆田丰美" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.22.105.102" sid="Vtion-fuzhou-102" svctype="2" op1="3" op2="25" province="福建" node="福州橘洲园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="36.250.1.14" sid="Vtion-fuzhou-14" svctype="2" op1="3" op2="25" province="福建" node="福州橘洲园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="58.22.105.106" sid="Vtion-fuzhou-106" svctype="2" op1="3" op2="25" province="福建" node="福州橘洲园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="112.111.143.134" sid="Vtion-longyan-134" svctype="2" op1="3" op2="25" province="福建" node="龙岩街心花园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.107.221.50" sid="Vtion-xiamen-50" svctype="2" op1="3" op2="25" province="福建" node="厦门大唐机房" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+  </sbs>
+  <sbs addr="61.137.182.28" sid="CU-SBS-fushun-28" disks="" type="0" key="SBS-CNC-SCS-group">
+    <scs addr="60.31.215.249" sid="CU-1st-huhehaote-249" svctype="0" op1="2" op2="88" province="内蒙古" node="呼和浩特Unicom" disks="" class="2" />
+    <scs addr="123.125.72.227" sid="PJ-phoenix-227" svctype="0" op1="2" op2="21" province="北京" node="兆维" disks="" class="2" />
+    <scs addr="202.108.39.103" sid="CNTV-beijing.xidan-103" svctype="2" op1="1" op2="21" province="北京" node="西单" disks="disk-1" class="2" />
+    <scs addr="60.31.215.248" sid="CU-1st-huhehaote-248" svctype="0" op1="2" op2="88" province="内蒙古" node="呼和浩特Unicom" disks="" class="2" />
+    <scs addr="202.108.17.164" sid="CNTV-beijing-164" svctype="0" op1="6" op2="21" province="北京" node="西单" disks="disk-1" class="2" />
+    <scs addr="221.204.185.149" sid="CNTV-taiyuan-149" svctype="2" op1="6" op2="99" province="山西" node="太原CNTV" disks="disk-4" class="2" />
+  </sbs>
+  <sbs addr="61.182.132.10" sid="CU-SBS-shijiazhuang-10" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" type="1" key="SBS_CU_shijiazhuang_SAS_group">
+    <sas addr="61.182.132.25" sid="CU-shijiazhuang-25" svctype="2" op1="1" op2="92" province="河北" node="石家庄" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <sas addr="61.182.132.26" sid="CU-shijiazhuang-26" svctype="2" op1="1" op2="92" province="河北" node="石家庄" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+  </sbs>
+  <sbs addr="61.182.132.13" sid="CU-SBS-shijiazhuang-13" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" type="0" key="SBS_CU_shijiazhuang_SCS_group">
+    <scs addr="61.137.182.20" sid="CU-fushun-20" svctype="2" op1="2" op2="91" province="辽宁" node="抚顺Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+    <scs addr="61.137.182.22" sid="CU-fushun-22" svctype="2" op1="2" op2="91" province="辽宁" node="抚顺Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+    <scs addr="61.182.132.23" sid="CU-shijiazhuang-23" svctype="2" op1="2" op2="92" province="河北" node="石家庄Unicom" disks="disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-2,disk-1" class="2" />
+    <scs addr="61.137.182.26" sid="CU-fushun-26" svctype="2" op1="2" op2="91" province="辽宁" node="抚顺Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+    <scs addr="61.182.132.35" sid="CU-shijiazhuang-35" svctype="2" op1="1" op2="92" province="河北" node="石家庄Unicom" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <scs addr="61.137.182.24" sid="CU-fushun-24" svctype="2" op1="2" op2="91" province="辽宁" node="抚顺Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+    <scs addr="61.182.132.21" sid="CU-shijiazhuang-21" svctype="2" op1="2" op2="92" province="河北" node="石家庄Unicom" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+    <scs addr="36.250.1.10" sid="Vtion-fuzhou-10" svctype="2" op1="3" op2="25" province="福建" node="福州橘洲园" disks="disk-1,disk-2,disk-3,disk-4,disk-5,disk-6" class="2" />
+    <scs addr="218.29.173.34" sid="CU-puyang-34" svctype="2" op1="2" op2="93" province="河南" node="濮阳Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <scs addr="218.29.173.35" sid="CU-puyang-35" svctype="2" op1="2" op2="93" province="河南" node="濮阳Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11,disk-12" class="2" />
+    <scs addr="61.137.182.18" sid="CU-fushun-18" svctype="2" op1="2" op2="91" province="辽宁" node="抚顺Unicom" disks="disk-2,disk-3,disk-4,disk-5,disk-6,disk-7,disk-8,disk-9,disk-10,disk-11" class="2" />
+  </sbs>
+</device-list>
